@@ -1,19 +1,66 @@
 #body {
-    border: 0;
-    padding: 0;
-    background-color: black;
+    font-family: Arial, sans-serif; /* Set the font family */
+    background-color: #000000; /* Set the background color */
+    color: #553daa; /* Set the text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
+
 
 #saxeli {
     color: green;
     text-align: center;
     display: block;
-    border-radius: 900px;
     font-size: 110px;
 }
 
-#menu {
+#horizontal-list {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#horizontal-list li {
+    font-size: 40px;
     color: aliceblue;
-    list-style: georgian;
-    display: inline;
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 50px; /* Add some spacing between list items */
+    margin-left: 100px;
+}
+
+#box-left {
+    font-size: 30px;
+    background-color: #3498db; /* Set background color for the left box */
+    color: #fff; /* Set text color for the left box */
+    padding: 20px; /* Add some padding to the left box */
+    float: left; /* Float the left box to the left side */
+    width: 50%; /* Set the width to 50% to make it take up half of the container */
+    box-sizing: border-box; /* Include padding and border within the box */
+}
+
+#box-right {
+    font-size: 30px;
+    background-color: #e74c3c; /* Set background color for the right box */
+    color: #fff; /* Set text color for the right box */
+    padding: 20px; /* Add some padding to the right box */
+    float: left; /* Float the right box to the left side */
+    width: 50%; /* Set the width to 50% to make it take up half of the container */
+    box-sizing: border-box; /* Include padding and border within the box */
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+h4 {
+    margin-left: 50px;
+}
+
+li {
+    margin-left: 100px;
+}
+
+#nawilipirveli {
+    color: wheat
 }
