@@ -31,7 +31,7 @@
 
 #box-left {
     font-size: 30px;
-    background-color: #3498db; /* Set background color for the left box */
+    background-color: #486070; /* Set background color for the left box */
     color: #fff; /* Set text color for the left box */
     padding: 20px; /* Add some padding to the left box */
     float: left; /* Float the left box to the left side */
@@ -41,7 +41,7 @@
 
 #box-right {
     font-size: 30px;
-    background-color: #e74c3c; /* Set background color for the right box */
+    background-color: #0f2946; /* Set background color for the right box */
     color: #fff; /* Set text color for the right box */
     padding: 20px; /* Add some padding to the right box */
     float: left; /* Float the right box to the left side */
@@ -67,4 +67,39 @@ li {
 
 #nawilimeore {
     color: wheat;
+}
+
+
+
+
+
+.calculator {
+    text-align: center;
+    margin: 20px;
+    font-size: 80px;
+}
+
+input {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
 }
