@@ -1,0 +1,19 @@
+#body {
+    border: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#saxeli {
+    color: green;
+    text-align: center;
+    display: block;
+    border-radius: 900px;
+    font-size: 110px;
+}
+
+#menu {
+    color: aliceblue;
+    list-style: georgian;
+    display: inline;
+}
