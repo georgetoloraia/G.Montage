@@ -1,0 +1,41 @@
+#saxeli {
+    color: green;
+    text-align: center;
+    display: block;
+    font-size: 110px;
+}
+
+#horizontal-list {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#horizontal-list li {
+    font-size: 40px;
+    color: aliceblue;
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 50px; /* Add some spacing between list items */
+    margin-left: 100px;
+}
+
+#body {
+    background-color: rgb(63, 63, 56);
+}
+
+#tel {
+    font-size: 79px;
+    text-align: center;
+}
+
+#telStr {
+    font-size: 85px;
+    text-align: center;
+}
+
+#telNumber {
+    font-size: 85px;
+    text-align: center;
+    color: rgb(1, 2, 1);
+}
