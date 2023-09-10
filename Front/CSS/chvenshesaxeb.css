@@ -1,0 +1,81 @@
+#body {
+    background-color: rgb(0, 0, 0);
+}
+
+#saxeli {
+    color: green;
+    text-align: center;
+    display: block;
+    font-size: 110px;
+}
+
+#horizontal-list {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    background-color: blue;
+}
+
+#horizontal-list li {
+    font-size: 40px;
+    color: aliceblue;
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 50px; /* Add some spacing between list items */
+    margin-left: 100px;
+}
+
+#about {
+    color: rgb(0, 0, 0);
+}
+
+#text {
+    text-align: center;
+}
+
+/* bubble */
+.bubble {
+    width: 250px;
+    height: 250px;
+    background: url('https://media.giphy.com/media/RTP5yqpBaN8li/giphy.gif') center center no-repeat;
+    background-size: cover;
+    border-radius: 40%; /* Makes the div circular */
+    text-align: right;
+    color: white; /* Text color for better visibility */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    margin-left: auto;
+  }
+  
+  .bubble p {
+    text-align: center;
+    color: darkgreen;
+  }
+  
+  /* Add animation if desired */
+  @keyframes bubbleAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  .bubble:hover {
+    animation: bubbleAnimation 1s infinite;
+  }
+  
+
+  /* background image */
+
+.image {
+    background-image: url('../images/electro1.png'); /* Replace 'your-image-url.jpg' with the path to your image */
+    /* Other background properties */
+    background-repeat: no-repeat; /* Controls if the image should repeat */
+    background-size: cover; /* Controls how the image should be sized */
+    background-position: center center; /* Controls the image's position */
+    /* Additional styling for your element */
+    width: 500px;
+    height: 300px;
+    /* Any other CSS styles you want to apply */
+  }
+  

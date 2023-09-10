@@ -1,3 +1,7 @@
+#body {
+    background-color: black;
+}
+
 #saxeli {
     color: green;
     text-align: center;
@@ -20,26 +24,6 @@
     margin-left: 100px;
 }
 
-#body {
-    background-color: rgb(63, 63, 56);
-}
-
-#tel {
-    font-size: 79px;
-    text-align: center;
-}
-
-#telStr {
-    font-size: 85px;
-    text-align: center;
-}
-
-#telNumber {
-    font-size: 85px;
-    text-align: center;
-    color: rgb(1, 2, 1);
-}
-
-#mtavari {
-    color: antiquewhite;
+#red {
+    color: brown;
 }
