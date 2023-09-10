@@ -7,25 +7,18 @@ function CalculateResult() {
     let Kvadrati1 = kvadrati.valueAsNumber
     let Wertili1 = wertili.valueAsNumber
     
-    {
-        if (Kvadrati1 <= 80) {
-            Wertili1 = Wertili1 * 15
-
-            resultDiv.textContent = `ფასი =  ${Wertili1}`;
-        }
-
-        if ( 80 < Kvadrati1 <= 160) {
-            Wertili1 = Wertili1 * 20
-
-            resultDiv.textContent = `ფასი = ${Wertili1}`
-        }
-
-        else { 
-            Wertili1 = Wertili1 * 25
-
-            resultDiv.textContent = `ფასი = ${Wertili1}`
-        }
+    
+    if (Kvadrati1 <= 80) {
+        Wertili1 = Wertili1 * 15
+        resultDiv.textContent = `ფასი =  ${Wertili1}`;
+    } else if ( Kvadrati1 > 80 && Kvadrati1 <= 160) {
+        Wertili1 = Wertili1 * 20
+        resultDiv.textContent = `ფასი = ${Wertili1}`
+    } else if (Kvadrati1 > 160) {
+        Wertili1 = Wertili1 * 25
+        resultDiv.textContent = `ფასი = ${Wertili1}`
     }
+    
 }
 
 calculateButton.addEventListener("click", CalculateResult);
