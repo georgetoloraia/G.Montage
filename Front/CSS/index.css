@@ -103,3 +103,14 @@ button:hover {
     margin-top: 20px;
     font-weight: bold;
 }
+
+#languages {
+    text-align: end;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+#ka-color {
+    color: chartreuse;
+    margin: auto;
+}
