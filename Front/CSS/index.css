@@ -91,7 +91,7 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 button:hover {
@@ -112,5 +112,5 @@ button:hover {
 
 #ka-color {
     color: chartreuse;
-    margin: auto;
+    margin: 20px;
 }
